@@ -1,6 +1,6 @@
 {
     "name": "robertjustjones-socket.io"
-  , "version": "0.9.17-1"
+  , "version": "0.9.17-2"
   , "description": "Real-time apps made cross-browser & easy with a WebSocket-like API"
   , "homepage": "http://socket.io"
   , "keywords": ["websocket", "socket", "realtime", "socket.io", "comet", "ajax"]
@@ -10,7 +10,11 @@
       , { "name": "Arnout Kazemier", "email": "info@3rd-eden.com" }
       , { "name": "Vladimir Dronnikov", "email": "dronnikov@gmail.com" }
       , { "name": "Einar Otto Stangvik", "email": "einaros@gmail.com" }
+      , { "name": "Robert Jones", "email": "rjones@opdots.com" }
     ]
+  , "publishConfig" : {
+    "registry" : "http://registry.raxord.opdots.com"
+  }
   , "repository":{
         "type": "git"
       , "url": "https://github.com/LearnBoost/socket.io.git"
